@@ -19,3 +19,4 @@ D:\repos\GRPCExample\grpcClient\obj\Debug\net8.0\refint\grpcClient.dll
 D:\repos\GRPCExample\grpcClient\obj\Debug\net8.0\grpcClient.pdb
 D:\repos\GRPCExample\grpcClient\obj\Debug\net8.0\grpcClient.genruntimeconfig.cache
 D:\repos\GRPCExample\grpcClient\obj\Debug\net8.0\ref\grpcClient.dll
+D:\repos\GRPCExample\grpcClient\obj\Debug\net8.0\grpcClient.sourcelink.json

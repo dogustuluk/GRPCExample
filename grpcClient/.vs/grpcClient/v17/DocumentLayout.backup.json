@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\repos\\GRPCExample\\grpcClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|d:\\repos\\grpcexample\\grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|d:\\repos\\grpcexample\\grpcclient\\grpcclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|solutionrelative:grpcclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|d:\\repos\\grpcexample\\grpcclient\\message.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|solutionrelative:message.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|d:\\repos\\grpcexample\\grpcclient\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|solutionrelative:greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|d:\\repos\\grpcexample\\grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9663BA93-5D5B-488A-9C9C-A26F02D03BD6}|grpcClient.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "grpcClient",
               "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcClient\\grpcClient.csproj",
               "RelativeDocumentMoniker": "grpcClient.csproj",
-              "ToolTip": "D:\\repos\\GRPCExample\\grpcClient\\grpcClient.csproj",
-              "RelativeToolTip": "grpcClient.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\repos\\GRPCExample\\grpcClient\\grpcClient.csproj*",
+              "RelativeToolTip": "grpcClient.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-20T11:48:14.514Z",
+              "WhenOpened": "2025-04-20T11:42:40.309Z",
               "EditorCaption": ""
             },
             {
@@ -75,28 +75,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "message.proto",
-              "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcClient\\message.proto",
-              "RelativeDocumentMoniker": "message.proto",
-              "ToolTip": "D:\\repos\\GRPCExample\\grpcClient\\message.proto",
-              "RelativeToolTip": "message.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "greet.proto",
+              "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcClient\\greet.proto",
+              "RelativeDocumentMoniker": "greet.proto",
+              "ToolTip": "D:\\repos\\GRPCExample\\grpcClient\\greet.proto",
+              "RelativeToolTip": "greet.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-04-20T12:25:08.921Z",
+              "WhenOpened": "2025-04-20T11:42:50.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcClient\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\repos\\GRPCExample\\grpcClient\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:50:15.889Z",
+              "WhenOpened": "2025-04-20T11:38:32.704Z",
               "EditorCaption": ""
             }
           ]
