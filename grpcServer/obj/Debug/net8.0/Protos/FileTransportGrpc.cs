@@ -54,7 +54,7 @@ namespace grpcFileTransportServer {
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::grpcFileTransportServer.FileInfo, global::grpcFileTransportServer.BytesContent> __Method_FileDownload = new grpc::Method<global::grpcFileTransportServer.FileInfo, global::grpcFileTransportServer.BytesContent>(
-        grpc::MethodType.Unary,
+        grpc::MethodType.ServerStreaming,
         __ServiceName,
         "FileDownload",
         __Marshaller_file_FileInfo,
@@ -82,10 +82,11 @@ namespace grpcFileTransportServer {
       ///server stream olacaðý için BytesContent dönmeli
       /// </summary>
       /// <param name="request">The request received from the client.</param>
+      /// <param name="responseStream">Used for sending responses back to the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      /// <returns>A task indicating completion of the handler.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::grpcFileTransportServer.BytesContent> FileDownload(global::grpcFileTransportServer.FileInfo request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task FileDownload(global::grpcFileTransportServer.FileInfo request, grpc::IServerStreamWriter<global::grpcFileTransportServer.BytesContent> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -121,7 +122,7 @@ namespace grpcFileTransportServer {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, FileServiceBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_FileDownload, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpcFileTransportServer.FileInfo, global::grpcFileTransportServer.BytesContent>(serviceImpl.FileDownload));
+      serviceBinder.AddMethod(__Method_FileDownload, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::grpcFileTransportServer.FileInfo, global::grpcFileTransportServer.BytesContent>(serviceImpl.FileDownload));
       serviceBinder.AddMethod(__Method_FileUpload, serviceImpl == null ? null : new grpc::ClientStreamingServerMethod<global::grpcFileTransportServer.BytesContent, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.FileUpload));
     }
 

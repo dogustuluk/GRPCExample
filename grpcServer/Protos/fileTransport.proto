@@ -7,7 +7,7 @@ package file;
 import "google/protobuf/empty.proto";
 
 service FileService{
-	rpc FileDownload(FileInfo) returns(BytesContent); //server stream olacaðý için BytesContent dönmeli
+	rpc FileDownload(FileInfo) returns(stream BytesContent); //server stream olacaðý için BytesContent dönmeli
 	rpc FileUpload(stream BytesContent) returns(google.protobuf.Empty); //eðer geriye herhangi bir þey dönmesini istemiyorsak google'ýn empty ifadesini dönmek zorundayýz.(import etmen lazým önce.)
 }
 

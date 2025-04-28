@@ -33,3 +33,4 @@ D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\refint\grpcServer.dll
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.pdb
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.genruntimeconfig.cache
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\ref\grpcServer.dll
+D:\repos\GRPCExample\grpcServer\bin\Debug\net8.0\grpcServer.staticwebassets.runtime.json

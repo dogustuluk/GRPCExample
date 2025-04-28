@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "Protos\\fileTransport.proto",
               "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Protos\\fileTransport.proto",
               "RelativeToolTip": "Protos\\fileTransport.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
               "WhenOpened": "2025-04-28T10:34:55.964Z",
               "EditorCaption": ""
@@ -87,9 +87,9 @@
               "Title": "FileTransportService.cs",
               "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Services\\FileTransportService.cs",
               "RelativeDocumentMoniker": "Services\\FileTransportService.cs",
-              "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Services\\FileTransportService.cs",
-              "RelativeToolTip": "Services\\FileTransportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Services\\FileTransportService.cs*",
+              "RelativeToolTip": "Services\\FileTransportService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T10:31:43.48Z",
               "EditorCaption": ""

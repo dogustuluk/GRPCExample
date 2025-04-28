@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\repos\\GRPCExample\\grpcServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\services\\filetransportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:services\\filetransportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\protos\\filetransport.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:protos\\filetransport.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\grpcserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,25 +70,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "fileTransport.proto",
               "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Protos\\fileTransport.proto",
               "RelativeDocumentMoniker": "Protos\\fileTransport.proto",
               "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Protos\\fileTransport.proto",
               "RelativeToolTip": "Protos\\fileTransport.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-04-28T10:34:55.964Z"
+              "WhenOpened": "2025-04-28T10:34:55.964Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FileTransportService.cs",
               "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Services\\FileTransportService.cs",
               "RelativeDocumentMoniker": "Services\\FileTransportService.cs",
               "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Services\\FileTransportService.cs",
               "RelativeToolTip": "Services\\FileTransportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T10:31:43.48Z",
               "EditorCaption": ""
@@ -119,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T11:36:42.989Z",
               "EditorCaption": ""

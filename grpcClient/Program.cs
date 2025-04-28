@@ -14,5 +14,3 @@ var channel = GrpcChannel.ForAddress("https://localhost:7051"); //-> bu adrestek
 //var greetClient = new Greeter.GreeterClient(channel); //-> Greeter olması gerektiğini proto dosyasındaki service adımızdan biliyoruz.
 //HelloReply result = await greetClient.SayHelloAsync(new HelloRequest { Name = "Doğuş Tuluk" });
 
-Console.WriteLine(response.Message);
-
