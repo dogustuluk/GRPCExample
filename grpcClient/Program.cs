@@ -5,6 +5,7 @@
  */
 
 // See https://aka.ms/new-console-template for more information
+using Google.Protobuf;
 using Grpc.Net.Client;
 using grpcFileTransportClient;
 
@@ -12,9 +13,9 @@ var channel = GrpcChannel.ForAddress("https://localhost:7051"); //-> bu adrestek
 
 var client = new FileService.FileServiceClient(channel);
 
-string file = "";
+string file = @"C:\Users\dogus\Downloads\CLove2006_flac_vnltue.rar";
 
-FileStream fileStream = new FileStream(file, FileMode.Open);
+using FileStream fileStream = new FileStream(file, FileMode.Open);
 
 var content = new BytesContent
 {
@@ -23,3 +24,18 @@ var content = new BytesContent
     Info = new grpcFileTransportClient.FileInfo { FileName = Path.GetFileNameWithoutExtension(fileStream.Name), FileExtension = Path.GetExtension(fileStream.Name) }
 
 };
+
+var upload = client.FileUpload();
+byte[] buffer = new byte[2048];
+
+while ((content.ReadedByte = await fileStream.ReadAsync(buffer, 0, buffer.Length)) > 0)
+{
+    content.Buffer = ByteString.CopyFrom(buffer);
+    await upload.RequestStream.WriteAsync(content);
+}
+
+await upload.RequestStream.CompleteAsync();
+
+fileStream.Close();
+
+

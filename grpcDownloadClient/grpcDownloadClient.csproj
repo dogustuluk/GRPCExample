@@ -16,4 +16,11 @@
 		</PackageReference>
 	</ItemGroup>
 
+	<ItemGroup>
+		<Protobuf Include="fileTransport.proto" GrpcServices="Client" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="downloadFiles\" />
+	</ItemGroup>
 </Project>
