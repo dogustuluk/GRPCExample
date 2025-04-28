@@ -67,7 +67,7 @@ public class FileTransportService : FileServiceBase
         BytesContent content = new BytesContent
         {
             FileSize = fileStream.Length,
-            Info = new grpcFileTransportServer.FileInfo { FileName = Path.GetFileNameWithoutExtension(fileStream.Name), FileExtension = Path.GetFileNameWithoutExtension(fileStream.Name) },
+            Info = new grpcFileTransportServer.FileInfo { FileName = Path.GetFileNameWithoutExtension(fileStream.Name), FileExtension = Path.GetExtension(fileStream.Name) },
             ReadedByte = 0,// bunu daha sonrasında, stream yaparken dolduruyor olucaz.
         };
 
@@ -75,6 +75,9 @@ public class FileTransportService : FileServiceBase
         while ((content.ReadedByte = await fileStream.ReadAsync(buffer, 0, buffer.Length)) > 0)
         {
             content.Buffer = ByteString.CopyFrom(buffer);//buffer byte olarak gelir bize ama bizim content.Buffer'ımız bir ByteString, ilgili dönüşüm yapılmalı.
+            await responseStream.WriteAsync(content);
         }
+
+        fileStream.Close();
     }
 }

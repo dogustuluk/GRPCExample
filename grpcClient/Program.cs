@@ -6,11 +6,20 @@
 
 // See https://aka.ms/new-console-template for more information
 using Grpc.Net.Client;
+using grpcFileTransportClient;
 
 var channel = GrpcChannel.ForAddress("https://localhost:7051"); //-> bu adresteki grpc servisine bağlanır
 
+var client = new FileService.FileServiceClient(channel);
 
+string file = "";
 
-//var greetClient = new Greeter.GreeterClient(channel); //-> Greeter olması gerektiğini proto dosyasındaki service adımızdan biliyoruz.
-//HelloReply result = await greetClient.SayHelloAsync(new HelloRequest { Name = "Doğuş Tuluk" });
+FileStream fileStream = new FileStream(file, FileMode.Open);
 
+var content = new BytesContent
+{
+    FileSize = fileStream.Length,
+    ReadedByte = 0,
+    Info = new grpcFileTransportClient.FileInfo { FileName = Path.GetFileNameWithoutExtension(fileStream.Name), FileExtension = Path.GetExtension(fileStream.Name) }
+
+};
