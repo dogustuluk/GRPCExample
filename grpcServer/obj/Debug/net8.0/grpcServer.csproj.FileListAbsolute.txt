@@ -18,6 +18,7 @@ D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.AssemblyInfoInputs.c
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.AssemblyInfo.cs
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.csproj.CoreCompileInputs.cache
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.MvcApplicationPartsAssemblyInfo.cache
+D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.sourcelink.json
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\staticwebassets.build.json
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\staticwebassets.development.json
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\staticwebassets\msbuild.grpcServer.Microsoft.AspNetCore.StaticWebAssets.props
@@ -32,4 +33,3 @@ D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\refint\grpcServer.dll
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.pdb
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.genruntimeconfig.cache
 D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\ref\grpcServer.dll
-D:\repos\GRPCExample\grpcServer\obj\Debug\net8.0\grpcServer.sourcelink.json

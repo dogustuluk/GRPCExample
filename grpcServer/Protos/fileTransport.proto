@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "grpcFileTransportServer";
+
+package file;
+
+import "google/protobuf/empty.proto";
+
+service FileService{
+	rpc FileDownload(FileInfo) returns(BytesContent); //server stream olacaðý için BytesContent dönmeli
+	rpc FileUpload(stream BytesContent) returns(google.protobuf.Empty); //eðer geriye herhangi bir þey dönmesini istemiyorsak google'ýn empty ifadesini dönmek zorundayýz.(import etmen lazým önce.)
+}
+
+message FileInfo{
+	string fileName = 1;
+	string fileExtension = 2;
+}
+
+message BytesContent{
+	int64 fileSize = 1; //gönderilecek dosyanýn boyutu
+	bytes buffer = 2; //dosya parça parça gönderileceði için her bir stream nesnesinin kaç byte olduðunu belirtir(maksimum 2048 olur)
+	int32 readedByte = 3; //kaç tanesinin okunduðunu belirtmek için.
+	FileInfo info = 4;
+}

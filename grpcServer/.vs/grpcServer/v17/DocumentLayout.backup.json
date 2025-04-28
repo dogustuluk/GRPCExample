@@ -7,24 +7,16 @@
       "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\protos\\message.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:protos\\message.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\services\\filetransportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:services\\filetransportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\protos\\filetransport.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:protos\\filetransport.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\grpcserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:grpcserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|solutionrelative:protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC8414F1-DAE5-4766-A8D3-7605DB4EB171}|grpcServer.csproj|d:\\repos\\grpcexample\\grpcserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -79,45 +71,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MessageService.cs",
-              "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Services\\MessageService.cs",
-              "RelativeDocumentMoniker": "Services\\MessageService.cs",
-              "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Services\\MessageService.cs",
-              "RelativeToolTip": "Services\\MessageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Title": "fileTransport.proto",
+              "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Protos\\fileTransport.proto",
+              "RelativeDocumentMoniker": "Protos\\fileTransport.proto",
+              "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Protos\\fileTransport.proto",
+              "RelativeToolTip": "Protos\\fileTransport.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-04-28T10:34:55.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileTransportService.cs",
+              "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Services\\FileTransportService.cs",
+              "RelativeDocumentMoniker": "Services\\FileTransportService.cs",
+              "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Services\\FileTransportService.cs",
+              "RelativeToolTip": "Services\\FileTransportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T12:19:35.068Z",
+              "WhenOpened": "2025-04-28T10:31:43.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "grpcServer.csproj",
               "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\grpcServer.csproj",
               "RelativeDocumentMoniker": "grpcServer.csproj",
               "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\grpcServer.csproj",
               "RelativeToolTip": "grpcServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-20T12:16:34.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T12:16:34.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "message.proto",
-              "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Protos\\message.proto",
-              "RelativeDocumentMoniker": "Protos\\message.proto",
-              "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Protos\\message.proto",
-              "RelativeToolTip": "Protos\\message.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-04-20T12:13:59.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -125,8 +115,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-20T11:50:54.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T11:50:54.948Z"
             },
             {
               "$type": "Document",
@@ -136,35 +125,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T11:36:42.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GreeterService.cs",
-              "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Services\\GreeterService.cs",
-              "RelativeDocumentMoniker": "Services\\GreeterService.cs",
-              "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Services\\GreeterService.cs",
-              "RelativeToolTip": "Services\\GreeterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:31:14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "greet.proto",
-              "DocumentMoniker": "D:\\repos\\GRPCExample\\grpcServer\\Protos\\greet.proto",
-              "RelativeDocumentMoniker": "Protos\\greet.proto",
-              "ToolTip": "D:\\repos\\GRPCExample\\grpcServer\\Protos\\greet.proto",
-              "RelativeToolTip": "Protos\\greet.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-04-20T11:31:11.732Z",
               "EditorCaption": ""
             }
           ]
